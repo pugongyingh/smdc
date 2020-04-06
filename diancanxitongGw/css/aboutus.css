@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd,dt, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video { margin: 0; padding: 0;}
+h1,h2,h3,h4{font-weight:normal;}
+
+body { font-family:MicrosoftYaHei,微软雅黑,Helvetica,STHeiti,Droid Sans Fallback;    font-size: 100%; background-color:#FFF; }
+iframe, img { border: 0 none;}
+ul, ol { list-style: none;}
+input, select, textarea { outline: 0 none;}
+a { text-decoration: none;	color:inherit;}
+
+/*内页幻灯片*/
+.nyhdp{  width:100%; height:auto; background: no-repeat center;position:relative; float:left;}
+.nyhdp1{  width:100%; height:auto; background: no-repeat center;position:relative; float:left;}
+
+
+/*-------------------------关于我们--------------------------*/
+.nygy{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:40px; padding-bottom:50px;}
+.nygybt{ width:100%; height:auto; line-height:95px; color:#f58100; text-align:center; font-size:42px;}
+.nygynr{ width:100%; height:auto; line-height:27px; color:#424242; text-align:left; font-size:17px;}
+.nygynr2{ width:100%; height:auto; line-height:27px; color:#424242; text-align:center; font-size:17px;}
+.nygywz{ width:100%; height:auto; padding-top:30px; line-height:35px; color:#424242; font-size:22px;}
+.nygywz span{ color:#f58100;}
+
+
+/*---------------------------餐厅经营----------------------------*/
+.nydqwz{width:77.7%; height:44px; margin:0 auto; max-width:1100px; padding-top:30px;}
+.nydqwz li{ height:44px; float:left; font-size:14px; color:#454545; line-height:44px;}
+
+.nyjy{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:20px;}
+.nyjyli{ width:100%; height:auto; float:left;  border-bottom:solid 1px #f0f0f0; padding-bottom:15px; margin-bottom:15px;}
+.nyjyliz{ width:17.4%; height:auto; float:left;}
+.nyjyliz img{ width:100%; height:auto; display:block;}
+.nyjyliy{ width:81%; height:auto; float:right;}
+.nyjyliys{ width:100%; height:auto; line-height:59px; font-size:18px; color:#414141;}
+.nyjyliys span{ font-size:14px; color:#969696; float:right;}
+.nyjyliyx{ width:70%; height:auto; line-height:26px; font-size:16px; color:#747474; margin-right:30%;}
+
+/*------------------------------产品介绍---------------------------------*/
+.nyjs{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:60px;}
+.nyjsbt{ width:100%; height:auto; line-height:30px; font-size:16px; color:#424242; text-align:center;}
+.nyjsbt span{ font-size:42px; color:#f58100;}
+
+/*自主点餐*/
+.nydcw{ width:100%; height:auto; background:#f8f8f8; float:left;padding-top:65px; margin-top:30px; padding-bottom:70px;}
+.nydc{width:77.7%; height:auto; margin:0 auto; max-width:1100px; }
+.nydcnr{ width:100%; height:auto; padding-top:20px;}
+.nydcnrli{ width:26.5%; height:auto; float:left; margin-left:3.4%; margin-right:3.4%;}
+.nydcnrlis{ width:100%; height:auto;}
+.nydcnrlisz{ width:40.4%; height:auto; float:left;}
+.nydcnrlisz img{ width:100%; height:auto; display:block;}
+.nydcnrlisy{ width:55%; height:auto; float:right; font-size:18px; color:#424242; padding-top:50px; line-height:20px;}
+.nydcnrlix{ width:100%; height:auto; padding-top:20px; float:left;}
+.nydcnrlix img{ width:100%; height:auto; display:block;}
+
+/*多人点餐*/
+.nydr{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:75px;}
+.nydrs{ width:100%; height:auto; border-bottom:solid 2px #e6e6e6; float:left; padding-bottom:40px; margin-bottom:40px;}
+.hengxian{border-bottom:solid 2px #e6e6e6;clear:both;height:60px;margin-bottom:60px;}
+.nydrsz{ width:48.3%; height:auto; float:left;}
+.nydrszli{ width:46.4%; height:auto; float:left;}
+.nydrszli img{ width:100%; height:auto;}
+.nydrszli1{ width:46.4%; height:auto; float:right;}
+.nydrszli1 img{ width:100%; height:auto;}
+.nydrszli2{ width:90%; height:auto; float:left;}
+.nydrszli2 img{ width:100%; height:auto;}
+.nydrsy{ width:46.3%; height:auto; float:right;}
+.nydrsybt{ width:100%; height:auto; font-size:42px; color:#f58100; line-height:111px;} 
+.nydrsynr{ width:100%; height:auto; font-size:18px; color:#424242; line-height:28px;} 
+.nydrsyxq{ width:40%; height:auto; font-size:18px; color:#fff; line-height:60px; background:#ff6900; border-radius:15px; text-align:center; margin-top:50px;} 
+
+.nydrx{ width:100%; height:auto;}
+.nydrxz{ width:48.3%; height:auto; float:left;}
+.nydrxzs{ width:100%; height:auto;}
+.nydrxy{ width:22.7%; height:auto; float:right; margin-right:20%;}
+.nydrxy img{ width:100%; height:auto; display:block; }
+
+.nydrk{ width:100%; height:auto; padding-top:75px; float:left; margin-bottom:40px;}
+.nydrkli{ width:46%; height:210px; float:left; background:#ff6900; border-radius:15px; padding-top:50px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+.nydrkli1{ width:46%; height:210px; float:left; background:#eb974e; border-radius:15px; padding-top:50px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+.nydrkli2{ width:46%; height:210px; float:left; background:#e84c3d; border-radius:15px; padding-top:50px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+.nydrkli3{ width:46%; height:210px; float:left; background:#e08477; border-radius:15px; padding-top:50px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+.nydrkli4{ width:46%; height:210px; float:left; background:#039372; border-radius:15px; padding-top:50px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+.nydrkli5{ width:46%; height:230px; float:left; background:#51b3d8; border-radius:15px; padding-top:30px; margin-left:2%; margin-left:2%; margin-bottom:20px;}
+
+.nydrklis{ width:100%; height:auto; line-height:80px; font-size:42px; color:#fff; text-align:center;}
+.nydrklix{ width:90%; height:auto; line-height:27px; font-size:18px; color:#fff; text-align:center; margin-left:5%; margin-right:5%;}
+
+.nydrklis5{ width:90%; height:auto; line-height:50px; font-size:42px; color:#fff; text-align:center; margin-left:5%; margin-right:5%;}
+.nydrklix5{ width:92%; height:auto; line-height:27px; padding-top:20px; font-size:18px; color:#fff;  margin-left:8%;}
+
+/*完善的售后服务*/
+.nyshli{ width:26.3%; height:auto; float:left; margin-left:3.5%; margin-right:3.5%; margin-top:10px;}
+.nyshlis{ width:29.3%; height:auto; margin:0 auto;}
+.nyshlis img{ width:100%; height:auto; display:block;}
+.nyshlix{ width:100%; height:70px; line-height:22px; font-size:18px; color:#424242; padding-top:20px; text-align:center;}
+.nyshlix i{ font-size:50px; font-family:Times New Roman;}
+
+.nyjy_bt{ width:100%; height:auto; font-size:14px; color:#666666; text-align:center; line-height:20px; padding-bottom:10px;}
+.nyjy_bt span{ font-size:20px; color:#333333; font-weight:bold;}
+.nyjy_nr{ width:100%; height:auto; font-size:14px; color:#666666; line-height:30px; padding-bottom:50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1366px) and (max-width:1440px){
+.nygy{ width:80%;}
+.nydqwz{ width:80%;}
+.nyjy{ width:80%;}
+.nyjs{ width:80%;}
+.nydc{ width:80%;}
+.nydr{ width:80%;}
+
+
+
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px){
+.nygy{ width:81%;}
+.nydqwz{ width:81%;}
+.nyjy{ width:81%;}
+.nyjs{ width:81%;}
+.nydc{ width:81%;}
+.nydr{ width:81%;}
+
+
+}
+
+
+@media screen and (min-width:1152px) and (max-width:1280px){
+.nygy{ width:85%;}
+.nydqwz{ width:85%;}
+.nyjy{ width:85%;}
+.nyjs{ width:85%;}
+.nydc{ width:85%;}
+.nydr{ width:85%;}
+
+
+
+}
+
+
+
+
+/*手机*/
+@media screen and (max-width: 767px){
+
+	/*内页幻灯片*/
+	.nyhdp{ width:100%; height:auto;}
+	.nyhdp1{ width:100%; height:auto;}
+	
+	
+	/*-------------------------关于我们--------------------------*/
+	.nygy{width:100%; height:auto; padding-top:20px; padding-bottom:20px;}
+	.nygybt{ width:100%; height:auto; line-height:30px; font-size:20px;}
+	.nygynr{ width:94%; height:auto; line-height:27px; padding-top:10px; margin-left:3%; margin-right:3%; font-size:15px; text-align:left;}
+	.nygywz{ width:94%; height:auto; padding-top:10px; line-height:30px; font-size:18px; margin-left:3%; margin-right:3%;}
+
+	/*---------------------------餐厅经营----------------------------*/
+	.nydqwz{width:94%; height:60px; padding-top:20px;margin-left:3%; margin-right:3%; float:left; border-bottom:solid 2px #999;}
+	.nydqwz li{height:44px; font-size:15px; }
+	
+	.nyjy{width:100%; padding-top:20px;}
+	.nyjyli{ width:86%; height:auto; float:left;  border-bottom:solid 1px #f0f0f0; padding-bottom:15px; margin-bottom:15px;margin-left:7%; margin-right:7%;}
+	.nyjyliz{ width:100%; height:auto; float:left;}
+	.nyjyliz img{ width:100%; height:auto; display:block;}
+	.nyjyliy{ width:100%; height:auto; float:right;}
+	.nyjyliys{ width:100%; height:auto; line-height:23px; font-size:16px; padding-top:5px;}
+	.nyjyliys span{ font-size:14px;}
+	.nyjyliyx{ width:100%; height:auto; padding-top:10px; line-height:25px; font-size:15px; margin-right:0;}
+
+	/*------------------------------产品介绍---------------------------------*/
+	.nyjs{width:100%; padding-top:20px;}
+	.nyjsbt{ width:100%; height:auto; line-height:25px; font-size:15px;}
+	.nyjsbt span{ font-size:20px;}
+	
+	/*自主点餐*/
+	.nydcw{ padding-top:20px; margin-top:20px; padding-bottom:20px;}
+	.nydc{width:100%;}
+	.nydcnr{ padding-top:20px;}
+	.nydcnrli{ width:90%; margin-left:5%; margin-right:5%; margin-bottom:15px;}
+	.nydcnrlis{ width:100%; height:auto;}
+	.nydcnrlisz{ width:15%;}
+	.nydcnrlisy{ width:80%; font-size:18px; padding-top:15px; line-height:20px;}
+	.nydcnrlix{ padding-top:10px;}
+	
+	/*多人点餐*/
+	.nydr{width:100%; padding-top:20px;}
+	.nydrs{ width:94%; padding-bottom:20px; margin-bottom:20px; margin-left:3%; margin-right:3%;}
+	.nydrsz{ width:100%; height:auto; float:left;}
+	.nydrsy{ width:100%; height:auto;}
+	.nydrsybt{ width:100%; height:auto; font-size:20px; text-align:center; line-height:50px;} 
+	.nydrsynr{ width:100%; height:auto; font-size:16px;  line-height:28px;} 
+	.nydrsyxq{ width:40%; height:auto; font-size:16px; color:#fff; line-height:40px;  margin-left:30%; margin-right:30%; margin-top:10px;} 
+	
+	.nydrx{ width:94%; height:auto; margin-left:3%; margin-right:3%;}
+	.nydrxz{ width:66%; height:auto; float:left;}
+	.nydrxzs{ width:100%; height:auto;}
+	.nydrxy{ width:30%; height:auto; float:right; margin-right:0%;}
+	
+	.nydrk{  padding-top:20px; margin-bottom:20px;}
+	.nydrkli{ width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	.nydrkli1{width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	.nydrkli2{width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	.nydrkli3{width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	.nydrkli4{width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	.nydrkli5{width:94%; height:auto; padding-top:15px; padding-bottom:15px; margin-left:3%; margin-left:3%; margin-bottom:15px;}
+	
+	.nydrklis{ line-height:50px; font-size:20px;}
+	.nydrklix{ width:90%; height:auto; line-height:27px; font-size:16px; margin-left:5%; margin-right:5%;}
+	
+	.nydrklis5{ width:90%;line-height:50px; font-size:20px; margin-left:5%; margin-right:5%;}
+	.nydrklix5{  width:90%; height:auto; line-height:27px; font-size:16px; margin-left:5%; margin-right:5%; padding-top:5px;}
+	
+	/*完善的售后服务*/
+	.nyshli{ width:94%; height:auto; float:left; margin-left:3%; margin-right:3%; margin-top:10px;}
+	.nyshlis{ width:11%; height:auto; float:left;}
+	.nyshlis img{ width:100%; height:auto; display:block;}
+	.nyshlix{ width:87%; height:auto; float:right; line-height:22px; font-size:16px; color:#424242; padding-top:10px; text-align:left;}
+	.nyshlix i{ font-size:25px;}
+	
+
+	.nyjy_bt{ width:100%; height:auto; font-size:14px; line-height:20px; padding-bottom:10px;}
+	.nyjy_bt span{ font-size:16px;}
+	.nyjy_nr{ width:94%; height:auto; font-size:14px; color:#666666; line-height:30px; padding-bottom:20px;margin-left:3%; margin-right:3%;}
+	.nyjy_nr img{ width:100%; height:auto; display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*手机*/
+@media screen and (max-width: 320px){
+
+	/*-------------------------关于我们--------------------------*/
+	.nygy{ padding-top:10px; padding-bottom:10px;}
+	.nygybt{ line-height:25px; font-size:16px;}
+	.nygynr{ line-height:25px; font-size:12px;}
+	.nygywz{ padding-top:10px; line-height:25px; font-size:13px;}
+
+	/*---------------------------餐厅经营----------------------------*/
+	.nydqwz{height:40px; padding-top:10px;}
+	.nydqwz li{ font-size:12px; line-height:30px;}
+	
+	.nyjy{width:100%; padding-top:15px;}
+	.nyjyliys{ line-height:20px; font-size:13px;}
+	.nyjyliys span{ font-size:12px;}
+	.nyjyliyx{ padding-top:5px; line-height:17px; font-size:12px;}
+
+	/*------------------------------产品介绍---------------------------------*/
+	.nyjsbt{ line-height:20px; font-size:12px;}
+	.nyjsbt span{ font-size:16px;}
+	
+	/*自主点餐*/
+	.nydcw{ padding-top:10px; padding-bottom:0px; margin-top:10px;}
+	.nydc{width:100%;}
+	.nydcnr{ padding-top:20px;}
+	.nydcnrli{ width:90%; margin-left:5%; margin-right:5%; margin-bottom:15px;}
+	.nydcnrlisy{ font-size:16px;}
+	
+	/*多人点餐*/
+	.nydr{ padding-top:10px;}
+	.nydrs{ width:94%; padding-bottom:10px; margin-bottom:10px;}
+	.nydrsybt{ font-size:16px; line-height:40px;} 
+	.nydrsynr{ font-size:13px;  line-height:20px;} 
+	.nydrsyxq{font-size:13px; line-height:25px;} 
+	
+	.nydrk{  padding-top:10px; margin-bottom:10px;}
+	.nydrkli{ padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	.nydrkli1{padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	.nydrkli2{padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	.nydrkli3{padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	.nydrkli4{padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	.nydrkli5{padding-top:10px; padding-bottom:10px; margin-bottom:10px;}
+	
+	.nydrklis{ line-height:40px; font-size:16px;}
+	.nydrklix{ line-height:20px; font-size:12px;}
+	
+	.nydrklis5{ line-height:40px; font-size:16px;}
+	.nydrklix5{ line-height:20px; font-size:12px;}
+	
+	/*完善的售后服务*/
+	.nyshli{ margin-top:10px;}
+	.nyshlix{ line-height:20px; font-size:13px; padding-top:5px;}
+	.nyshlix i{ font-size:20px;}
+	
+
+	.nyjy_bt{ width:100%; height:auto; font-size:12px;}
+	.nyjy_bt span{ font-size:14px;}
+	.nyjy_nr{  font-size:12px; line-height:22px;}
+
+
+
+
+
+
+}
+
+/*平板*/
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+
+
+/*-------------------------关于我们--------------------------*/
+.nygy{width:98%; margin-left:1%; margin-right:1%; padding-top:20px; padding-bottom:30px;}
+.nygybt{ line-height:65px; font-size:30px;}
+.nygynr{ line-height:30px; text-align:left; font-size:17px;}
+.nygywz{ padding-top:15px; line-height:35px; font-size:18px;}
+
+/*---------------------------餐厅经营----------------------------*/
+.nydqwz{width:98%; height:44px; margin-left:1%; margin-right:1%; padding-top:20px;}
+.nydqwz li{ font-size:17px; line-height:44px;}
+
+.nyjy{width:98%; margin-left:1%; margin-right:1%; padding-top:20px;}
+.nyjyliz{ width:25%;}
+.nyjyliy{ width:73%;}
+.nyjyliys{ width:100%; height:auto; line-height:40px; font-size:19px;}
+.nyjyliys span{ display:none;}
+.nyjyliyx{ width:100%; height:auto; line-height:26px; font-size:17px; margin-right:0;}
+
+
+/*------------------------------产品介绍---------------------------------*/
+.nyjs{width:98%; padding-top:30px;}
+.nyjsbt{ line-height:30px; font-size:18px;}
+.nyjsbt span{ font-size:25px;}
+
+/*自主点餐*/
+.nydcw{ padding-top:30px; padding-bottom:30px;}
+.nydc{width:98%;margin-left:1%; margin-right:1%;}
+.nydcnrli{ width:29.3%; height:auto; float:left; margin-left:2%; margin-right:2%;}
+.nydcnrlisz{ width:30%; height:auto; float:left;}
+.nydcnrlisz img{ width:100%; height:auto; display:block;}
+.nydcnrlisy{ width:62%; padding-top:20px;}
+
+/*多人点餐*/
+.nydr{width:98%;margin-left:1%; margin-right:1%; padding-top:30px;}
+.nydrs{ padding-bottom:20px; margin-bottom:20px;}
+.nydrsybt{ width:100%; height:auto; font-size:25px; line-height:80px;} 
+.nydrsynr{ width:100%; height:auto; font-size:20px; color:#424242; line-height:33px;} 
+.nydrsyxq{ width:50%; height:auto; font-size:20px; color:#fff; line-height:50px; margin-top:30px;} 
+
+
+.nydrk{ width:100%; height:auto; padding-top:30px; float:left; margin-bottom:40px;}
+.nydrkli{ height:240px; padding-top:20px;}
+.nydrkli1{ height:240px; padding-top:20px;}
+.nydrkli2{ height:240px; padding-top:20px;}
+.nydrkli3{ height:240px; padding-top:20px;}
+.nydrkli4{ height:240px; padding-top:20px;}
+.nydrkli5{ height:240px; padding-top:20px;}
+
+.nydrklis{ line-height:50px; font-size:30px;}
+.nydrklix{ width:90%; height:auto; line-height:30px; font-size:18px; margin-left:5%; margin-right:5%;}
+
+.nydrklis5{ line-height:35px; font-size:30px; margin-left:5%; margin-right:5%;}
+.nydrklix5{ width:92%; height:auto; line-height:27px; padding-top:20px; font-size:18px; color:#fff;  margin-left:8%;}
+
+/*完善的售后服务*/
+.nyshli{ width:31.3%; height:auto; float:left; margin-left:1%; margin-right:1%; margin-top:10px;}
+
+
+
+.nyjy_bt{ font-size:17px; line-height:25px; padding-bottom:10px;}
+.nyjy_bt span{ font-size:24px;}
+.nyjy_nr{ font-size:18px; line-height:35px;}
+
+
+
+
+
+}

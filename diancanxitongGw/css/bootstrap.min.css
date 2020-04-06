@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0; padding: 0; font-size: 100%; font-family: MicrosoftYaHei,微软雅黑,Arial;  }
+
+li{list-style: none;}
+img{ border:none;}
+body { background-color:#fff;}
+a{text-decoration:none; list-style:none; color:inherit;}
+
+
+
+/*可以删除，删除之后电脑和手机菜单三角形除掉*/
+.caret {
+	display:inline-block;
+	width:0;
+	height:0;
+	margin-left:2px;
+	vertical-align:middle;
+	border-top:4px solid;
+	border-right:4px solid transparent;
+	border-left:4px solid transparent;
+}
+/*可以删除，删除之后电脑和手机菜单三角形除掉*/
+
+/*菜单背景*/
+.navbar-default {background-color:#f8f8f8;}
+/*菜单背景*/
+
+/*不能删除，删除之后菜单没有背景*/
+.clearfix:before,.clearfix:after,.dl-horizontal dd:before,.dl-horizontal dd:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after,.btn-toolbar:before,.btn-toolbar:after,.btn-group-vertical>.btn-group:before,.btn-group-vertical>.btn-group:after,.nav:before,.nav:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after,.pager:before,.pager:after,.panel-body:before,.panel-body:after,.modal-footer:before,.modal-footer:after {display:table;content:" "}
+.clearfix:after,.dl-horizontal dd:after,.container:after,.container-fluid:after,.row:after,.form-horizontal .form-group:after,.btn-toolbar:after,.btn-group-vertical>.btn-group:after,.nav:after,.navbar:after,.navbar-header:after,.navbar-collapse:after,.pager:after,.panel-body:after,.modal-footer:after {clear:both;}
+/*不能删除，删除之后菜单没有背景*/
+
+/*菜单栏目字体颜色*/
+.navbar-default .navbar-nav>li>a {color:#777;}
+/*菜单栏目字体颜色*/
+
+/*子栏目样式*/
+.dropdown-menu {
+	position:absolute;
+	top:100%;
+	left:0;
+	z-index:1000;
+	display:none;
+	float:left;
+	padding:5px 0;
+	margin:2px 0 0;
+	font-size:14px;
+	text-align:left;
+	list-style:none;
+	background-color:#ccc;
+	
+}
+
+
+.dropdown-menu>li>a {
+	display:block;
+	padding:3px 20px;
+	clear:both;
+	font-weight:400;
+	line-height:1.42857143;
+	color:#777;
+	white-space:nowrap;
+}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
+	color:#fff;
+	text-decoration:none;
+	background-color:#000;
+}
+
+.open>.dropdown-menu {display:block;}
+.nav>li{position:relative;display:block;}
+.nav>li>a {position:relative;display:block;padding:40px 15px}
+
+/*子栏目样式*/
+
+
+/*手机菜单字的样式*/
+.navbar-brand {
+	float:left;
+	height:50px;
+	padding:15px 15px;
+	font-size:18px;
+	line-height:20px;
+	color:#777;
+}
+/*手机菜单字的样式*/
+
+/*手机菜单三横的样式*/
+.navbar-toggle {
+	position:relative;
+	float:right;
+	padding:9px 10px;
+	margin-top:8px;
+	margin-right:15px;
+	margin-bottom:8px;
+	background-color:transparent;
+	background-image:none;
+	border:1px solid #ddd;
+	border-radius:4px;
+}
+
+.navbar-toggle .icon-bar {
+	display:block;
+	width:22px;
+	height:2px;
+	border-radius:1px;
+	background-color:#888;
+}
+.navbar-toggle .icon-bar+.icon-bar {margin-top:4px;}
+
+/*手机菜单三横的样式*/
+
+
+/*手机*/
+@media screen and (max-width: 767px){
+
+
+/*不能删除，删除之后手机菜单会下移一小块*/
+* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+/*不能删除，删除之后手机菜单会下移一小块*/
+
+}
+
+

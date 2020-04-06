@@ -1,0 +1,743 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0; padding: 0; font-size: 100%; font-family: MicrosoftYaHei,微软雅黑,Arial;  }
+li{list-style: none;}
+img{ border:none;}
+body { background-color:#fff;}
+a{text-decoration:none; list-style:none; color:inherit;}
+.defaultA{color: blue;text-decoration: underline;}
+.defaultA1{color: #259;text-decoration: underline;cursor: pointer;}
+.clear{clear:both;}
+.tyimgs100{width:100%;height:auto;}
+.divcolor{color:#424242;line-height:30px;padding:15px;}
+.divcolor2{color:#8e8e8e;line-height:30px;padding:15px;}
+.article_title{width: 100%;height: auto; font-size: 22px; color: #585858; text-align: center; padding-top: 35px; font-weight: bold; background: #fff;}
+.div720px{width: 100%;height: auto;margin: 0 auto;max-width: 720px; padding-left: 20px;padding-right: 20px;}
+.image100{width: 100%;height: auto;margin: 0 auto;}
+.nygynr{line-height: 30px;}
+.defaultH2{font-weight: bold;line-height: 35px;}
+.tongyongdiv{line-height: 30px;}
+.spansmallbig{font-size: 16px;font-weight: bold;}
+.spanbig{font-size: 18px;font-weight: bold;}
+.redspansmallbig{font-size: 16px;font-weight: bold;color: red;}
+.redspanbig{font-size: 18px;font-weight: bold;color: red;}
+/*头部*/
+.containerc{ display:none;}
+.tbw{width:100%; height:auto; background:#24211c; float:left;}
+.tb{width:77.7%; height:auto; margin:0 auto; max-width:1100px;}
+.tbz{width:22.9%; height:auto; float:left;}
+.tbz img{width:100%; height:auto; display:block;}
+.tby{width:71%; height:auto; float:right;}
+.tby li{width:16%; height:auto; line-height:86px; text-align:center; float:left; font-size:16px; color:#7a7a7a; }
+.tby li.split{background:url(../images/tb_bj.jpg) no-repeat right;}
+.tby li:hover{ color:#F00;}
+
+
+/*幻灯片*/
+.hdp{ width:100%; height:auto; background: no-repeat center;position:relative; float:left;}
+
+
+/*点餐吧.智慧餐厅点餐系统功能介绍*/
+
+.dg{width:77.7%; height:auto; margin:0 auto; padding-top:90px; max-width:1100px;}
+.dgbt{width:100%; height:auto; text-align:center; font-size:38px; color:#f58100; font-weight:bold;}
+.dgbt span{color:#24201c;}
+.dgnr{width:100%; height:auto; padding-top:50px;}
+.dgnrli{width:13%; height:auto; float:left; margin-left:1.8%; margin-right:1.8%; margin-bottom:15px;}
+.dgnrlis{width:100%; height:auto;}
+.dgnrlis img{width:100%; height:auto; display:block;}
+.dgnrlix{width:100%; height:auto; font-size:16px; color:#424242; text-align:center; line-height:40px;}
+
+
+/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+
+.dx{width:77.7%; height:auto; margin:0 auto; padding-top:40px; max-width:1100px;}
+.dxbt{width:100%; height:auto;}
+.dxbt1{width:100%; height:auto; font-size:38px; color:#24201c; font-weight:bold; text-align:center; margin-bottom:15px;}
+.dxbt1 span{color:#f58100;}
+.dxbt2{width:100%; height:auto; font-size:18px; color:#7b7b7b; text-align:center; margin-bottom:20px;}
+.dxbt3{width:36.8%; height:auto; margin:0 auto; background:#f68100; font-size:25px; color:#ffffff; font-weight:bold; line-height:45px; text-align:center; border-radius:10px;}
+.dxnr{width:100%; height:auto; float:left; padding-top:35px;}
+.dxnrli{width:18.8%; height:280px; float:left; background:url(../images/dx_bj1.jpg) no-repeat center; margin-left:0.6%; margin-right:0.6%;}
+.dxnrlis{width:63.4%; height:50px; font-size:16px; color:#7b7b7b; font-weight:bold; padding-left:18.3%; padding-right:18.3%; margin-top:115px; text-align:center; line-height:24px; float:left; margin-bottom:55px;}
+.dxnrlix{width:100%; height:auto; font-size:20px; color:#f58100; text-align:center; line-height:22px;}
+.dxnrlix span{font-size:14px;}
+.dxnrli1{width:18.8%; height:280px; float:left; background:url(../images/dx_bj2.jpg) no-repeat center; margin-left:0.6%; margin-right:0.6%;}
+.dxnrli2{width:18.8%; height:280px; float:left; background:url(../images/dx_bj3.jpg) no-repeat center; margin-left:0.6%; margin-right:0.6%;}
+.dxnrli3{width:18.8%; height:280px; float:left; background:url(../images/dx_bj4.jpg) no-repeat center; margin-left:0.6%; margin-right:0.6%;}
+.dxnrli4{width:18.8%; height:280px; float:left; background:url(../images/dx_bj5.jpg) no-repeat center; margin-left:0.6%; margin-right:0.6%;}
+.sjd{display:none;}
+
+
+/*通过分析我们发现对每一拔客人*/
+
+.fx{width:77.7%; height:auto; margin:0 auto; padding-top:50px; max-width:1100px;}
+.fxbt{width:36.8%; height:auto; margin:0 auto; background:#f68100; font-size:25px; color:#ffffff; font-weight:bold; line-height:45px; text-align:center; border-radius:10px; margin-bottom:30px;}
+.fxsj{width:100%; height:60px; background:url(../images/bj1.jpg) no-repeat center; line-height:60px; font-size:18px; color:#585858; font-weight:bold;}
+.fxsj span{color:#f58100; font-size:22px;}
+.fxsjz{width:40.4%; height:auto; float:left; padding-left:9%;}
+.fxsjy{width:50.6%; height:auto; float:right;}
+.fxwz{width:100%; height:auto;}
+.fxwzs{width:100%; height:auto; font-size:24px; color:#585858; font-weight:bold; text-align:center; margin-bottom:12px;}
+.fxwzs span{color:#f58100;}
+.fxwzx{width:100%; height:auto;}
+.fxwzx1{width:100%; height:auto; font-size:16px; color:#7b7b7b; text-align:center;}
+.fxwzx2{width:100%; height:auto; font-size:16px; color:#7b7b7b; text-align:center;line-height:30px;}
+.fxwzx2 span{ color:#f58100;}
+.fxtp{ width:100%; height:227px; background:url(../images/td5.jpg) center no-repeat;}
+.fxtpli{ width:17.7%; height:auto; float:left;position:relative;}
+.fxtpli1{ width:17.7%; height:auto; float:left;position:relative; margin-left:8%;}
+.fxtpli2{ width:17.7%; height:auto; float:left;position:relative;margin-left:7.5%;}
+.fxtpli3{ width:17.7%; height:auto; float:left;position:relative;margin-left:7%;}
+.fxtplis{ width:100%; height:auto;}
+.fxtplis img{ width:100%; height:auto; display:block;}
+.fxtplix{ width:60%; height:auto; top:45%; position:absolute; font-size:16px; color:#fff; text-align:center; margin-left:20%; margin-right:20%;}
+
+.fxtd2{ width:99%; height:auto; padding:0.5%; background:#e8e8e8; margin-top:50px;}
+.fxtd2s{ width:100%; height:auto; font-size:24px; color:#585858; text-align:center; padding-top:35px; font-weight:bold; background:#fff;}
+.fxtd2s span{ color:#f58100;}
+.fxtd2x{ width:100%; height:auto; font-size:16px; color:#8e8e8e; text-align:center; line-height:30px; background:#fff; padding-bottom:35px;}
+.fxtd2x span{ color:#f58100;}
+
+/*顾客体验*/
+.gktyw{ width:100%; height:auto; background:#f8f8f8; float:left; padding-top:60px; padding-bottom:60px; margin-top:50px;}
+.gkty{width:77.7%; height:auto; margin:0 auto; max-width:1100px;}
+.gktybt{ width:100%; height:auto; font-size:16px; color:#f58100; text-align:center; line-height:30px;}
+.gktybt span{font-weight:bold;font-size:25px;}
+.gktybt b{ font-size:25px; color:#24201c; }
+.gktynr{ width:100%; height:620px; background:url(../images/td6.jpg) no-repeat center; margin-top:50px;}
+.gktynr1{ width:100%; height:210px; text-align:center; font-size:16px; color:#424242;}
+.gktynr2{ width:100%; height:210px;}
+.gktynr2z{ width:25%; height:auto; float:left;font-size:16px; color:#424242; text-align:center;}
+.gktynr2y{ width:8%; height:auto; float:right;font-size:16px; color:#424242; margin-right:6%;}
+.gktynr3{ width:100%; height:auto;}
+.gktynr3s{ width:100%; height:auto; font-size:38px; color:#fff; text-align:center; font-weight:bold;}
+.gktynr3x{ width:20%; height:auto; font-size:16px; color:#fff; padding-top:10px; text-align:center; margin:0 auto;}
+
+.gktynr_sj{ display:none;}
+/*好处*/
+
+.hc{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:70px;}
+.hc1{ width:55%; height:auto; background:#f68100; margin:0 auto; font-size:25px; color:#fff; text-align:center; font-weight:bold; line-height:45px; border-radius:10px;}
+.hc2{ width:100%; height:auto; font-size:24px; color:#585858; text-align:center; font-weight:bold; line-height:65px;padding-left: 10px;padding-right: 10px;}
+.hc2 span{ color:#f58100;}
+.hc3{ width:100%; height:80px; background:url(../images/hc1.jpg) center no-repeat; padding-top:50px; text-align:center; font-size:16px; color:#8e8e8e; line-height:30px;padding-left: 10px;padding-right: 10px;}
+.hc4{ width:100%; height:auto; padding-top:20px; float:left;}
+.hc4li{ width:100%; height:auto; background:#f4f4f4; float:left; margin-bottom:20px;}
+.hc4liz{ width:33%; height:auto; float:left;}
+.hc4liz img{ width:100%; height:auto; display:block;}
+.hc4liy{ width:64%; height:auto; float:right; margin-left:3%;}
+
+.hc4liz1{ width:33%; height:auto; float:right;}
+.hc4liz1 img{ width:100%; height:auto; display:block;}
+.hc4liy1{ width:64%; height:auto; float:left; margin-left:3%;}
+
+.hc4liys{ width:100%; height:auto; padding-top:30px; line-height:60px; font-size:24px; color:#585858; font-weight:bold;}
+.hc4liys span{ color:#f58100;}
+.hc4liyzj{ width:100%; height:auto; font-size:16px; color:#8e8e8e;}
+.hc4liyx{ width:95%; height:auto; line-height:22px; padding-top:10px; font-size:16px; color:#8e8e8e; margin-right:5%;}
+
+/*常见疑问*/
+
+.cjyw{width:77.7%; height:auto; margin:0 auto; max-width:1100px;}
+.cjywbt{ width:100%; height:auto; line-height:135px; font-size:38px; color:#24201c; text-align:center;}
+.cjywbt b{ color:#f58100;}
+.cjywnr{ width:100%; height:auto;}
+.cjywnrli{ width:21%; height:400px; float:left; margin-left:2%; margin-right:2%;}
+.cjywnrlitp{ width:38%; height:auto; margin:0 auto;}
+.cjywnrlitp img{ width:100%; height:auto; display:block;}
+.cjywnrlibt{ width:100%; height:auto; font-size:19px; color:#585858; font-weight:normal; padding-top:10px;}
+.cjywnrlibt span{ color:#f58100;}
+.cjywnrlinr{ width:100%; height:auto; font-size:15px; color:#8e8e8e; line-height:25px; padding-top:10px;}
+
+
+/*无退款理由*/
+.lyw{ width:100%; height:auto; background:#f68100; float:left; padding-top:40px; padding-bottom:40px;}
+
+.ly{width:77.7%; height:auto; margin:0 auto; max-width:1100px;}
+.lyz{ width:36.3%; height:auto; float:left;}
+.lyz img{ width:100%; height:auto; display:block;}
+.lyy{ width:61%; height:auto; float:right; font-size:17px; color:#fff; line-height:30px; padding-top:50px;}
+
+
+
+/*咨询我们*/
+.zxwmw{ width:100%; height:auto; background:#ededed; float:left;padding-top:60px; padding-bottom:60px;}
+
+.zxwm{width:77.7%; height:auto; margin:0 auto; max-width:1100px; }
+.zxwm1{width:70%; height:auto; font-size:22px; color:#24201c; text-align:center; margin:0 auto; line-height:40px;}
+.zxwm1 span{ font-weight:bold;color:red;font-size:28px; }
+.zxwm2{width:27.2%; height:auto; margin:0 auto; padding-top:25px;}
+.zxwm2z{ width:16.6%; height:auto; float:left;}
+.zxwm2z img{ width:100%; height:auto; display:block;}
+.zxwm2y{ width:81%; height:auto; float:right; font-size:16px; color:#f58100;}
+.zxwm2y span{ font-size:34px; font-family:Impact; font-weight:bold;}
+.zxwm3{ width:18%; height:auto; border:solid 1px #f58100; font-size:18px; color:#f58100; line-height:40px; text-align:center; float:left; margin-left:41%; margin-right:41%; margin-top:30px;}
+
+
+
+/*产品对比*/
+.nycpdb{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:40px;}
+.nycpdbbt{width:100%; height:106px; font-size:42px; color:#f58100; text-align:center; line-height:106px;}
+.nycpdbnr{width:100%; height:auto; padding-bottom:50px;}
+table{ border-left:#d5d5d5 solid 1px; border-top:#d5d5d5 solid 1px;}
+td{
+	border-bottom: #d5d5d5 solid 1px;
+	border-right: #d5d5d5 solid 1px;
+	font-size: 18px;
+	margin-left:3%;
+	 line-height:40px;
+} 
+.aaa{ width:30%;font-size: 18px;color: #fff; padding-left:3%;line-height:40px; font-weight:bold;}
+.bbb{ width:30%;font-size: 18px;color: #fff; padding-left:3%;line-height:40px;color: #424242; }
+
+/*底部*/
+.dbw{ width:100%; height:auto; background:#24211c; padding-top: 20px;padding-bottom: 20px;clear: both;overflow: hidden;}
+.dbws{ width:100%; height:auto;  border-bottom:solid 1px #3a3732;}
+.dbwsl{width:77.7%; height:auto; margin:0 auto; max-width:1100px; padding-top:20px;color:#8c8c8c;text-align:center;font-size:16px;line-height:30px;padding-bottom: 20px;}
+.dbwslli{ width:100%; height:auto; float:left;}
+.dbwslliz{ width:8%; height:auto; float:left; font-size:16px; color:#d1d1d1;line-height:33px;}
+.dbwslliy{ width:91%; height:auto; float:right;text-align:center;overflow:hidden;}
+.dbwslliyli{ width:auto; height:auto; float:left; font-size:14px; color:#8c8c8c; line-height:33px;}
+.dbwslliyli a:link {
+	color: #8c8c8c;
+}
+.dbwslliyli a:visited {
+	color: #8c8c8c;
+}
+
+.dbwslliyli a:hover {
+	color:#F00;
+}
+
+.dbwx{ width:100%; height:auto; font-size:14px; color:#8c8c8c; line-height:30px; text-align:center;}
+
+.kg{ display:none;}
+.db2{ display:none;}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1366px) and (max-width:1440px){
+.tb{ width:80%;}
+.dg{ width:80%;}
+.dx{ width:80%;}
+.fx{ width:80%;}
+.gkty{ width:80%;}
+.hc{ width:80%;}
+.cjyw{ width:80%;}
+.ly{ width:80%;}
+.zxwm{ width:80%;}
+.nycpdb{ width:80%;}
+.dbwsl{ width:80%;}
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px){
+
+.tb{ width:81%;}
+.dg{ width:81%;}
+.dx{ width:81%;}
+.fx{ width:81%;}
+.gkty{ width:81%;}
+.hc{ width:81%;}
+.cjyw{ width:81%;}
+.ly{ width:81%;}
+.zxwm{ width:81%;}
+.nycpdb{ width:81%;}
+.dbwsl{ width:81%;}
+}
+
+
+@media screen and (min-width:1152px) and (max-width:1280px){
+.tb{ width:85%;}
+.dg{ width:85%;}
+.dx{ width:85%;}
+.fx{ width:85%;}
+.gkty{ width:85%;}
+.hc{ width:85%;}
+.cjyw{ width:85%;}
+.ly{ width:85%;}
+.zxwm{ width:85%;}
+.nycpdb{ width:85%;}
+.dbwsl{ width:85%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*手机*/
+@media screen and (max-width: 767px){
+	 #top{ display:none;}
+	.containerc{ width:100%; height:auto; margin:0 auto;position:relative; display:block; padding-top:50px;}
+    .containera{ width:100%; height:50px; margin:0 auto;position:absolute; top:0;  bottom:0px; left:0px; z-index:99999999;}
+	   /*头部*/
+		.tbw{ display:none;}
+		
+		/*幻灯片*/
+		.hdp{width:100%; height:auto; background:url(../images/hdp1.jpg) no-repeat center; float:left;}
+		
+		/*点餐吧.智慧餐厅点餐系统功能介绍*/
+		.dg{width:100%; height:auto; padding-top:20px;}
+		.dgbt{width:100%; height:auto; text-align:center; font-size:20px; color:#f58100; font-weight:bold;}
+		.dgbt span{color:#24201c;}
+		.dgnr{width:100%; height:auto; padding-top:10px;}
+		.dgnrli{width:44%; height:auto; float:left; margin-left:3%; margin-right:3%; margin-bottom:8px;}
+		.dgnrlis{width:100%; height:auto;}
+		.dgnrlis img{width:100%; height:auto; display:block;}
+		.dgnrlix{width:100%; height:auto; font-size:15px; color:#424242; text-align:center; line-height:30px;}	
+		
+		
+		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		.dx{width:100%; height:auto; padding-top:20px;}
+		.dxbt{width:100%; height:auto;}
+		.dxbt1{width:100%; height:auto; font-size:20px; color:#24201c; font-weight:bold; text-align:center; margin-bottom:10px;}
+		.dxbt1 span{color:#f58100;}
+		.dxbt2{width:100%; height:auto; font-size:15px; color:#7b7b7b; text-align:center; margin-bottom:13px;}
+		.dxbt3{width:90%; height:auto;  background:#f68100; font-size:17px; color:#ffffff; font-weight:bold; line-height:30px; text-align:center; border-radius:10px;}
+		
+		.dxnr{display:none;}
+		.sjd{width:100%; height:auto; display:block; padding-top:15px; float:left;}
+        .sjdli{width:94%; height:auto; float:left; margin-left:3%; margin-right:3%; margin-bottom:10px;}
+		.sjdliz{width:20%; height:auto; float:left;}
+		.sjdliz img{width:100%; height:auto; display:block;}
+		.sjdliy{width:78%; height:auto; float:right; font-size:15px; color:#7b7b7b; font-weight:bold; padding-top:10px; line-height:23px;}
+		.sjdliy span{font-size:14px; color:#f58100;}
+		
+		
+	/*通过分析我们发现对每一拔客人*/
+	
+	.fx{width:100%; padding-top:20px;}
+	.fxbt{width:94%; font-size:20px; line-height:45px; margin-bottom:10px;}
+	.fxsj{width:94%; height:auto; background:none; line-height:30px; font-size:16px; margin-left:3%; margin-right:3%;}
+	.fxsj span{color:#f58100; font-size:18px;}
+	.fxsjz{width:100%; height:auto; padding-left:0; text-align:center;}
+	.fxsjy{width:100%; height:auto;text-align:center;}
+	.fxwz{width:100%; height:auto;}
+	.fxwzs{width:100%; height:auto; font-size:20px; padding-top:10px; margin-bottom:12px; float:left;}
+	.fxwzx{width:100%; height:auto;}
+	.fxwzx1{width:100%; height:auto; font-size:16px; color:#7b7b7b; text-align:center;}
+	.fxwzx2{width:100%; height:auto; font-size:16px; color:#7b7b7b; text-align:center;}
+	.fxwzx2 span{ color:#f58100;}
+	.fxtp{ width:100%; height:auto; background:none; padding-top:20px;}
+	.fxtpli{ width:44%;  margin-left:3%; margin-right:3%; margin-bottom:15px;}
+	.fxtpli1{width:44%;  margin-left:3%; margin-right:3%; margin-bottom:15px;}
+	.fxtpli2{width:44%;  margin-left:3%; margin-right:3%; margin-bottom:15px;}
+	.fxtpli3{width:44%;  margin-left:3%; margin-right:3%; margin-bottom:15px;}
+	.fxtplix{ width:80%; font-size:16px; margin-left:10%; margin-right:10%;}
+	
+	.fxtd2{ width:92%; height:auto; padding:1%; margin-top:20px; float:left;margin-left:3%; margin-right:3%;}
+	.fxtd2s{ width:100%; height:auto; font-size:18px; padding-top:20px;}
+	.fxtd2x{ width:100%; height:auto; font-size:15px;  line-height:25px; padding-bottom:20px;}
+	
+	/*顾客体验*/
+	.gktyw{ padding-top:20px; padding-bottom:20px; margin-top:20px;}
+	.gkty{width:100%;}
+	.gktybt{ width:94%; font-size:15px; line-height:25px;margin-left:3%; margin-right:3%;}
+	.gktybt span{font-size:20px;}
+	.gktybt b{ font-size:20px; }
+	.gktynr{ display:none;}
+	.gktynr_sj{ width:100%; height:auto; display:block; padding-top:20px;}
+	.gktynr_sjbt{ width:60%; height:auto;position:relative;margin-left:20%; margin-right:20%;}
+	.gktynr_sjbts{ width:100%; height:auto;}
+	.gktynr_sjbts img{ width:100%; height:auto; display:block;}
+	.gktynr_sjbtx{ width:90%; height:auto;position:absolute; top:52%; margin-left:5%; margin-right:5%; font-size:16px; color:#fff; text-align:center;}
+	.gktynr_sjbtx span{ font-size:20px; font-weight:bold;}
+	.gktynr_sjnr{ width:100%; height:auto; padding-top:15px;}
+	.gktynr_sjnr li{ width:29%; height:auto; margin-bottom:15px;margin-left:2%; margin-right:2%; float:left;}
+	.gktynr_sjnrz{ width:60%; height:auto; float:left;margin-left:20%; margin-right:20%;}
+	.gktynr_sjnrz img{ width:100%; height:auto; display:block; border-radius:50%;}
+	.gktynr_sjnry{ width:100%; height:auto; float:right; font-size:15px; color:#666666; text-align:center;}
+	
+	
+	
+	
+	
+	/*好处*/
+	
+	.hc{width:100%; padding-top:20px;}
+	.hc1{ width:96%; font-size:18px; line-height:35px;margin-left:2%; margin-right:2%;}
+	.hc2{ width:100%; height:auto; font-size:16px; padding-top:10px; line-height:25px;}
+	.hc3{ width:100%; height:auto; background:none; padding-top:20px; font-size:15px; line-height:23px;}
+	.hc4li{ width:94%; height:auto; margin-bottom:15px;margin-left:3%; margin-right:3%;}
+	.hc4liz{ width:100%; height:auto; float:left;}
+	.hc4liy{ width:100%; margin-left:0;}
+	
+	.hc4liz1{ width:100%; height:auto; float:right;}
+	.hc4liy1{ width:100%; height:auto; float:left; margin-left:0;}
+	
+	.hc4liys{ padding-top:10px; line-height:30px; font-size:18px;}
+	.hc4liyzj{ font-size:15px;}
+	.hc4liyx{ width:100%; height:auto; line-height:22px; padding-top:10px; font-size:15px; padding-bottom:10px; margin-right:0;}
+	
+	/*常见疑问*/
+	
+	.cjyw{width:100%; }
+	.cjywbt{ width:100%; height:auto; line-height:50px; font-size:20px;}
+	.cjywnr{ width:100%; height:auto;}
+	.cjywnrli{ width:94%; height:auto; float:left; margin-left:3%; margin-right:3%; margin-bottom:20px;}
+	.cjywnrlitp{ width:17%; float:left;}
+	.cjywnrlibt{ width:80%; font-size:16px; padding-top:0; float:right;}
+	.cjywnrlinr{width:80%; font-size:15px; line-height:20px; padding-top:10px;float:right;}
+	
+	
+	/*无退款理由*/
+	.lyw{ padding-top:20px; padding-bottom:20px;}
+	.ly{width:94%; margin-left:3%; margin-right:3%;}
+	.lyz{ width:100%;}
+	.lyy{ width:100%; font-size:15px; line-height:25px; padding-top:10px;}
+	
+	
+	
+	/*咨询我们*/
+	.zxwmw{ padding-top:20px; padding-bottom:20px;}
+	
+	.zxwm{width:100%; }
+	.zxwm1{width:94%; font-size:18px; line-height:40px; margin-left:3%; margin-right:3%;}
+	.zxwm2{width:70%; padding-top:25px; margin-left:15%; margin-right:15%;}
+	.zxwm2z{ width:18%; height:auto; float:left;}
+	.zxwm2z img{ width:100%; height:auto; display:block;}
+	.zxwm2y{ width:80%; font-size:16px;}
+	.zxwm2y span{ font-size:25px;}
+	.zxwm3{ width:40%; font-size:16px; line-height:40px; margin-left:30%; margin-right:30%; margin-top:10px;}
+	
+			
+		
+
+		
+		
+		/*产品对比*/
+	.nycpdb{width:100%; padding-top:20px;}
+	.nycpdbbt{width:100%; height:auto; font-size:20px; line-height:50px;}
+	.nycpdbnr{width:100%; height:auto; padding-bottom:20px;}
+	table{ border-left:#d5d5d5 solid 1px; border-top:#d5d5d5 solid 1px;}
+	td{
+		border-bottom: #d5d5d5 solid 1px;
+		border-right: #d5d5d5 solid 1px;
+		font-size: 15px;
+		margin-left:3%;
+		 line-height:35px;
+	} 
+	.aaa{ width:30%;font-size: 15px;color: #fff; padding-left:3%;line-height:35px; font-weight:bold;}
+	.bbb{ width:30%;font-size: 15px;color: #fff; padding-left:3%;line-height:35px;color: #424242; }
+
+	
+	
+
+}
+
+
+
+
+
+
+
+/*手机i5*/
+@media screen and (max-width: 320px){
+       /*点餐吧.智慧餐厅点餐系统功能介绍*/
+		.dg{width:100%; height:auto; padding-top:20px;}
+		.dgbt{width:100%; height:auto; text-align:center; font-size:15px; color:#f58100; font-weight:bold;}
+		.dgbt span{color:#24201c;}
+		.dgnr{width:100%; height:auto; padding-top:10px;}
+		.dgnrli{width:44%; height:auto; float:left; margin-left:3%; margin-right:3%; margin-bottom:8px;}
+		.dgnrlis{width:100%; height:auto;}
+		.dgnrlis img{width:100%; height:auto; display:block;}
+		.dgnrlix{width:100%; height:auto; font-size:12px; color:#424242; text-align:center; line-height:25px;}	
+		
+		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		.dxbt1{font-size:15px;}
+		.dxbt2{font-size:12px;}
+		.dxbt3{font-size:13px; line-height:30px;}
+		.sjdliy{width:79%; font-size:13px; padding-top:3px; line-height:18px;}
+		.sjdliy span{font-size:12px;}
+		
+		
+		
+		/*通过分析我们发现对每一拔客人*/
+
+	.fx{ padding-top:10px;}
+	.fxbt{ font-size:16px; line-height:35px;}
+	.fxsj{ line-height:25px; font-size:13px;}
+	.fxsj span{ font-size:14px;}
+	.fxwzs{ font-size:16px;}
+	.fxwzx1{ font-size:13px;}
+	.fxwzx2{ font-size:13px; }
+	.fxtp{padding-top:10px;}
+	.fxtplix{ font-size:13px;}
+	
+	.fxtd2{ margin-top:10px;}
+	.fxtd2s{ font-size:13px; padding-top:10px;}
+	.fxtd2x{ font-size:12px;  line-height:20px; padding-bottom:10px;}
+	
+	/*顾客体验*/
+	.gktyw{ padding-top:10px; padding-bottom:10px; margin-top:10px;}
+	.gktybt{ font-size:12px; line-height:22px;}
+	.gktybt span{font-size:16px;}
+	.gktybt b{ font-size:16px; }
+	.gktynr_sj{ padding-top:10px;}
+	.gktynr_sjbt{ width:60%; height:auto;position:relative;margin-left:20%; margin-right:20%;}
+	.gktynr_sjbtx{ font-size:12px;}
+	.gktynr_sjbtx span{ font-size:14px;}
+	.gktynr_sjnry{ font-size:12px;}
+	
+	
+	
+	
+	
+	/*好处*/
+	
+	.hc{ padding-top:10px;}
+	.hc1{ font-size:13px; line-height:30px;}
+	.hc2{ font-size:12px; padding-top:10px; line-height:17px;}
+	.hc3{ padding-top:10px; font-size:12px; line-height:17px;}
+	
+	.hc4liz1{ width:100%; height:auto; float:right;}
+	.hc4liy1{ width:100%; height:auto; float:left; margin-left:0;}
+	
+	.hc4liys{ padding-top:5px; line-height:17px; font-size:13px;}
+	.hc4liyzj{ font-size:12px; padding-top:10px;}
+	.hc4liyx{ line-height:20px; font-size:12px;}
+	
+	/*常见疑问*/
+	
+	.cjywbt{ line-height:30px; font-size:16px;}
+	.cjywnrli{ margin-bottom:10px;}
+	.cjywnrlibt{ font-size:13px;}
+	.cjywnrlinr{font-size:12px; line-height:17px; padding-top:5px;}
+	
+	
+	/*无退款理由*/
+	.lyy{ font-size:12px; line-height:22px;}
+	
+	
+	
+	/*咨询我们*/
+	.zxwm1{ font-size:16px; line-height:40px;}
+	.zxwm2{width:70%; padding-top:25px; margin-left:15%; margin-right:15%;}
+	.zxwm2z{ width:18%; height:auto; float:left;}
+	.zxwm2z img{ width:100%; height:auto; display:block;}
+	.zxwm2y{ width:80%; font-size:14px;}
+	.zxwm2y span{ font-size:22px;}
+	.zxwm3{ font-size:14px; line-height:30px;}
+	
+		
+			
+			
+		
+			/*产品对比*/
+	.nycpdb{ padding-top:10px;}
+	.nycpdbbt{ font-size:16px; line-height:40px;}
+	td{
+		font-size: 12px;
+		 line-height:25px;
+	} 
+	.aaa{ width:30%;font-size: 12px;color: #fff; padding-left:3%;line-height:25px; font-weight:bold;}
+	.bbb{ width:30%;font-size: 12px;color: #fff; padding-left:3%;line-height:25px;color: #424242; }
+
+
+	/*底部*/
+	.kg{ height:70px;}
+	.db2{ height:55px;}
+	.db2li{height:55px;}
+	.db2li1{height:55px;}
+	.db2li2{height:55px;}
+
+}
+
+
+/*平板*/
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+        /*头部*/
+		 #top{ display:none;}
+		.tbw{width:100%; height:auto; background:#24211c; float:left;}
+		.tb{width:98%; height:auto; margin-left:1%; margin-right:1%;}
+		.tbz{width:28%; height:auto; float:left;}
+		.tbz img{width:100%; height:auto; display:block;}
+		.tby{width:69%; height:auto; float:right;}
+		.tby li{width:20%; height:auto; line-height:86px; text-align:center; float:left; font-size:18px; color:#7a7a7a; background:url(../images/tb_bj.jpg) no-repeat right;}
+		
+		/*幻灯片*/
+		.hdp{width:100%; height:519px; background:url(../images/hdp1.jpg) no-repeat center; float:left;}
+		
+		/*点餐吧.智慧餐厅点餐系统功能介绍*/
+		.dg{width:98%; height:auto; padding-top:40px; margin-left:1%; margin-right:1%;}
+		.dgbt{width:100%; height:auto; text-align:center; font-size:25px; color:#f58100; font-weight:bold;}
+		.dgbt span{color:#24201c;}
+		.dgnr{width:100%; height:auto; padding-top:20px;}
+		.dgnrli{width:13%; height:auto; float:left; margin-left:1.8%; margin-right:1.8%; margin-bottom:15px;}
+		.dgnrlis{width:100%; height:auto; margin-bottom:5px;}
+		.dgnrlis img{width:100%; height:auto; display:block;}
+		.dgnrlix{width:100%; height:40px; font-size:19px; color:#424242; text-align:center; line-height:25px;}
+		
+		
+		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		.dx{width:98%; height:auto; padding-top:40px; margin-left:1%; margin-right:1%;}
+		.dxbt{width:100%; height:auto;}
+		.dxbt1{width:100%; height:auto; font-size:25px; color:#24201c; font-weight:bold; text-align:center; margin-bottom:15px;}
+		.dxbt1 span{color:#f58100;}
+		.dxbt2{width:100%; height:auto; font-size:17px; color:#7b7b7b; text-align:center; margin-bottom:20px;}
+		.dxbt3{width:90%; height:auto; margin:0 auto; background:#f68100; font-size:20px; color:#ffffff; font-weight:bold; line-height:
+		45px; text-align:center; border-radius:10px;}
+		.dxnr{display:none;}
+		.sjd{width:100%; height:auto; display:block; padding-top:35px; float:left;}
+        .sjdli{width:76%; height:auto; float:left; margin-left:12%; margin-right:12%; margin-bottom:15px;}
+		.sjdliz{width:10%; height:auto; float:left;}
+		.sjdliz img{width:100%; height:auto; display:block;}
+		.sjdliy{width:87%; height:auto; float:right; font-size:22px; color:#7b7b7b; font-weight:bold; padding-top:5px; line-height:25px;}
+		.sjdliy span{font-size:18px; color:#f58100;}
+
+
+
+/*通过分析我们发现对每一拔客人*/
+
+.fx{width:98%; margin-left:1%; margin-right:1%; padding-top:30px;}
+.fxbt{width:60%; font-size:25px; line-height:45px; margin-bottom:20px;}
+.fxsj{width:95%; height:auto; background:none; border:dashed 1px #666666; float:left; line-height:60px; font-size:18px;  margin-left:2%; margin-right:2%;}
+.fxsj span{ font-size:20px;}
+.fxsjz{width:50%; height:auto; text-align:center; padding-left:0;}
+.fxsjy{width:50%; height:auto;text-align:center;  float:right;}
+.fxwzs{ font-size:22px; padding-top:10px;}
+.fxwzx1{ font-size:17px;}
+.fxwzx2{ font-size:17px;}
+.fxtp{ width:100%; height:auto; background:none;}
+.fxtpli{ width:23%; margin-right:1%; margin-left:1%;}
+.fxtpli1{ width:23%; margin-right:1%; margin-left:1%;}
+.fxtpli2{ width:23%; margin-right:1%; margin-left:1%;}
+.fxtpli3{ width:23%; margin-right:1%; margin-left:1%;}
+.fxtplix{ width:80%; height:auto; top:30%;font-size:18px;  margin-left:10%; margin-right:10%;}
+
+.fxtd2{ padding:0.5%; float:left; margin-top:20px;}
+.fxtd2s{ font-size:24px; padding-top:25px;}
+.fxtd2x{ font-size:18px; line-height:30px; padding-bottom:20px;}
+
+/*顾客体验*/
+.gktyw{ padding-top:20px; padding-bottom:20px; margin-top:20px;}
+.gkty{width:98%; margin-left:1%; margin-right:1%;}
+.gktybt{ font-size:17px;}
+.gktybt span{font-size:22px;}
+.gktybt b{ font-size:22px; }
+.gktynr{ display:none;}
+.gktynr_sj{ width:100%; height:auto; display:block; padding-top:20px;}
+.gktynr_sjbt{ width:40%; height:auto;position:relative;margin-left:30%; margin-right:30%;}
+.gktynr_sjbts{ width:100%; height:auto;}
+.gktynr_sjbts img{ width:100%; height:auto; display:block;}
+.gktynr_sjbtx{ width:90%; height:auto;position:absolute; top:52%; margin-left:5%; margin-right:5%; font-size:18px; color:#fff; text-align:center;}
+.gktynr_sjbtx span{ font-size:26px; font-weight:bold;}
+.gktynr_sjnr{ width:100%; height:auto; padding-top:15px;}
+.gktynr_sjnr li{ width:29%; height:auto; margin-bottom:15px;margin-left:2%; margin-right:2%; float:left;}
+.gktynr_sjnrz{ width:60%; height:auto; float:left;margin-left:20%; margin-right:20%;}
+.gktynr_sjnrz img{ width:100%; height:auto; display:block; border-radius:50%;}
+.gktynr_sjnry{ width:100%; height:auto; float:right; font-size:18px; line-height:40px; text-align:center;}
+
+/*好处*/
+
+.hc{width:98%; padding-top:30px; margin-left:1%; margin-right:1%;}
+.hc1{ width:80%; font-size:24px; line-height:45px;}
+.hc2{ width:100%; height:auto; font-size:22px; line-height:45px;}
+.hc3{ width:100%; height:80px; background:url(../images/hc1.jpg) center no-repeat; padding-top:50px; text-align:center; font-size:18px; line-height:30px;}
+.hc4{ width:100%; height:auto; padding-top:20px; float:left;}
+.hc4li{ width:100%; height:auto; background:#f4f4f4; float:left; margin-bottom:20px;}
+.hc4liz{ width:40%; height:auto; float:left;}
+.hc4liz img{ width:100%; height:auto; display:block;}
+.hc4liy{ width:58%; height:auto; float:right; margin-left:2%;}
+
+.hc4liz1{ width:40%; height:auto; float:right;}
+.hc4liz1 img{ width:100%; height:auto; display:block;}
+.hc4liy1{ width:58%; height:auto; float:left; margin-left:2%;}
+
+.hc4liys{ padding-top:0; line-height:25px; font-size:18px;}
+.hc4liyzj{ width:100%; height:auto; font-size:17px;}
+.hc4liyx{ width:95%; height:auto; line-height:22px; padding-top:10px; font-size:17px; color:#8e8e8e; margin-right:5%;}
+
+/*常见疑问*/
+
+.cjyw{width:98%; margin-left:1%; margin-right:1%;}
+.cjywbt{ line-height:80px; font-size:30px;}
+.cjywnr{ width:100%; height:auto;}
+.cjywnrli{ width:96%; height:auto; float:left; margin-left:2%; margin-right:2%; margin-bottom:20px;}
+.cjywnrlitp{ width:12%; height:auto; float:left;}
+.cjywnrlitp img{ width:100%; height:auto; display:block;}
+.cjywnrlibt{ width:86%; height:auto; font-size:18px; float:right; padding-top:0;}
+.cjywnrlinr{ width:86%; height:auto; font-size:17px; float:right;line-height:25px; padding-top:10px;}
+
+
+/*无退款理由*/
+.lyw{ padding-top:30px; padding-bottom:30px;}
+
+.ly{width:98%; margin-left:1%; margin-right:1%;}
+.lyy{font-size:17px; line-height:30px; padding-top:0;}
+
+
+
+/*咨询我们*/
+.zxwmw{ padding-top:30px; padding-bottom:30px;}
+
+.zxwm{width:98%; margin-left:1%; margin-right:1%;}
+.zxwm1{width:100%; font-size:20px; line-height:40px;}
+.zxwm2{width:40%; padding-top:25px;}
+.zxwm2z{ width:16.6%; height:auto; float:left;}
+.zxwm2z img{ width:100%; height:auto; display:block;}
+.zxwm2y{ width:81%; height:auto; float:right; font-size:18px;}
+.zxwm2y span{ font-size:30px;}
+.zxwm3{ font-size:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	/*产品对比*/
+	.nycpdb{width:98%; margin-left:1%; margin-right:1%; padding-top:20px;}
+	.nycpdbbt{width:100%; height:80px; font-size:30px; line-height:80px;}
+	.nycpdbnr{width:100%; height:auto; padding-bottom:30px;}
+
+
+/*底部*/
+.dbwsl{width:98%; margin-left:1%; margin-right:1%; padding-top:30px;}
+.dbwslliz{ width:10%; font-size:18px;}
+.dbwslliy{ width:89%;text-align:center;}
+.dbwslliyli{font-size:17px;}
+.dbwx{ font-size:14px; }
+
+
+
+}
+
