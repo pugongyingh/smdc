@@ -37,7 +37,7 @@ a{text-decoration:none; list-style:none; color:inherit;}
 .hdp{ width:100%; height:auto; background: no-repeat center;position:relative; float:left;}
 
 
-/*点餐吧.智慧餐厅点餐系统功能介绍*/
+/*智慧餐厅点餐系统功能介绍*/
 
 .dg{width:77.7%; height:auto; margin:0 auto; padding-top:90px; max-width:1100px;}
 .dgbt{width:100%; height:auto; text-align:center; font-size:38px; color:#f58100; font-weight:bold;}
@@ -49,7 +49,7 @@ a{text-decoration:none; list-style:none; color:inherit;}
 .dgnrlix{width:100%; height:auto; font-size:16px; color:#424242; text-align:center; line-height:40px;}
 
 
-/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+/*为什么选择小海豚.智慧餐厅点餐系统？*/
 
 .dx{width:77.7%; height:auto; margin:0 auto; padding-top:40px; max-width:1100px;}
 .dxbt{width:100%; height:auto;}
@@ -307,7 +307,7 @@ td{
 		/*幻灯片*/
 		.hdp{width:100%; height:auto; background:url(../images/hdp1.jpg) no-repeat center; float:left;}
 		
-		/*点餐吧.智慧餐厅点餐系统功能介绍*/
+		/*智慧餐厅点餐系统功能介绍*/
 		.dg{width:100%; height:auto; padding-top:20px;}
 		.dgbt{width:100%; height:auto; text-align:center; font-size:20px; color:#f58100; font-weight:bold;}
 		.dgbt span{color:#24201c;}
@@ -318,7 +318,7 @@ td{
 		.dgnrlix{width:100%; height:auto; font-size:15px; color:#424242; text-align:center; line-height:30px;}	
 		
 		
-		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		/*为什么选择智慧餐厅点餐系统？*/
 		.dx{width:100%; height:auto; padding-top:20px;}
 		.dxbt{width:100%; height:auto;}
 		.dxbt1{width:100%; height:auto; font-size:20px; color:#24201c; font-weight:bold; text-align:center; margin-bottom:10px;}
@@ -464,7 +464,7 @@ td{
 
 /*手机i5*/
 @media screen and (max-width: 320px){
-       /*点餐吧.智慧餐厅点餐系统功能介绍*/
+       /*智慧餐厅点餐系统功能介绍*/
 		.dg{width:100%; height:auto; padding-top:20px;}
 		.dgbt{width:100%; height:auto; text-align:center; font-size:15px; color:#f58100; font-weight:bold;}
 		.dgbt span{color:#24201c;}
@@ -474,7 +474,7 @@ td{
 		.dgnrlis img{width:100%; height:auto; display:block;}
 		.dgnrlix{width:100%; height:auto; font-size:12px; color:#424242; text-align:center; line-height:25px;}	
 		
-		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		/*为什么选择智慧餐厅点餐系统？*/
 		.dxbt1{font-size:15px;}
 		.dxbt2{font-size:12px;}
 		.dxbt3{font-size:13px; line-height:30px;}
@@ -589,7 +589,7 @@ td{
 		/*幻灯片*/
 		.hdp{width:100%; height:519px; background:url(../images/hdp1.jpg) no-repeat center; float:left;}
 		
-		/*点餐吧.智慧餐厅点餐系统功能介绍*/
+		/*智慧餐厅点餐系统功能介绍*/
 		.dg{width:98%; height:auto; padding-top:40px; margin-left:1%; margin-right:1%;}
 		.dgbt{width:100%; height:auto; text-align:center; font-size:25px; color:#f58100; font-weight:bold;}
 		.dgbt span{color:#24201c;}
@@ -600,7 +600,7 @@ td{
 		.dgnrlix{width:100%; height:40px; font-size:19px; color:#424242; text-align:center; line-height:25px;}
 		
 		
-		/*为什么选择点餐吧.智慧餐厅点餐系统？*/
+		/*为什么选择智慧餐厅点餐系统？*/
 		.dx{width:98%; height:auto; padding-top:40px; margin-left:1%; margin-right:1%;}
 		.dxbt{width:100%; height:auto;}
 		.dxbt1{width:100%; height:auto; font-size:25px; color:#24201c; font-weight:bold; text-align:center; margin-bottom:15px;}
